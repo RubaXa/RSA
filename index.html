@@ -37,7 +37,7 @@
 
 <form name="rsatest" onSubmit='do_encrypt();return false;'>
 	Plaintext (string):<br>
-	<input name="plaintext" type="text" value="test" size="40">
+	<input name="plaintext" type="text" value="testing" size="40">
 	<input type="button" value="encrypt" onClick="do_encrypt();">
 
 	<p>
@@ -70,10 +70,6 @@
 
 	<script>
 		set_1024f4();
-
-		RSA.modulus = 'D09B1D863D1D8E2E423A727B9E95A8AB381FED5AF22360C1FA812D8C50F08018CBEB32F7D3361359180590DA71391D0FFA03A09F331685CB18D2743D470D9AF1';
-
-		cipherb64.value = RSA.encrypt64('RubaXa');
 	</script>
 </form>
 </body>

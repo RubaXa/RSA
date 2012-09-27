@@ -19,7 +19,6 @@
 		modulus: 0,
 		exponent: "10001",
 
-
 		seed: rng_seed_time,
 
 		lineBreak: linebrk,
